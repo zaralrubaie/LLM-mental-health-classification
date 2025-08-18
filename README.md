@@ -1,4 +1,9 @@
 Mental Health Prediction Using LLM
+# 🧠 Mental Health Prediction LLM
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16Ryhn8WmFloFnQJLlF4Gv1wPdBB5dryY)
+
 ## Project Overview
 This project is a mental health prediction system built using BERT/DistilBERT for text classification. The model classifies user messages into three categories:
 - Normal
