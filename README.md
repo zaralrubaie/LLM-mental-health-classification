@@ -34,7 +34,7 @@ Note: The dataset is preprocessed by combining relevant features and encoding la
 
 ## Installation
 ```bash
-git clone https://github.com/zaralrubaie/mental-health-LLM.git
+git clone https://github.com/zaralrubaie/LLM-mental-health-classification.git
 cd mental-health-LLM
 
 # Install dependencies
