@@ -38,7 +38,7 @@ git clone https://github.com/zaralrubaie/LLM-mental-health-classification.git
 cd mental-health-LLM
 
 # Install dependencies
-pip install torch transformers gradio scikit-learn
+pip install -r requirements.txt
 ```
 ## Usage 
 1. Fine-tune the model
