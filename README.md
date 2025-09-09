@@ -16,9 +16,19 @@ Mental health is critical, and early detection of symptoms can help individuals 
 
 ## Dataset
 - Text data consisting of user messages (`Context`) and responses (`Response`)  
-- Target classes: `normal`, `depression`, `anxiety`  
+- Target classes: `normal`, `depression`, `anxiety`
 
-Class distribution:
+## Project Structure
+- mental_health/
+  - __init__.py
+  - data_processing.py     # assign_label, prepare data
+  - dataset.py             # MentalHealthDataset
+  - modeling.py            # WeightedTrainer, compute_metrics, training utils
+  - predict.py             # predict_mental_health
+- app.py                   # Gradio app (imports from above)
+- tests/                   # Unit tests
+
+## Class distribution:
 - Normal: 2241
 - Depression: 702
 - Anxiety: 565
