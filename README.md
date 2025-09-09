@@ -26,7 +26,7 @@ Mental health is critical, and early detection of symptoms can help individuals 
   - modeling.py            # WeightedTrainer, compute_metrics, training utils
   - predict.py             # predict_mental_health
 - app.py                   # Gradio app (imports from above)
-- tests/                   # Unit tests
+- test_data_processing.py  # Tests assign_label function
 
 ## Class distribution:
 - Normal: 2241
